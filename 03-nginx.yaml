@@ -1,0 +1,29 @@
+- name: nginx installed and run
+  hosts: frontend
+  become: yes #sudo access
+  tasks: 
+  - name: install nginx package
+    ansibile.builtin.package:
+      name: nginx
+      state: present
+  - name: start nginx   
+  ansible.builtin.service:
+      name: nginx
+      state: start
+      enabled: yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,11 +6,11 @@
       DURESTION: 3 monthes
       TRAINER: mounika
   tasks:    
-      - name: print course information
-        ansibile.builtin.debug:
-         msg: "Hello{{COURSE}}, Course Durestion{{DURISTION}},Trainer is{{TRAINER}}"
+    - name: print course information
+      ansibile.builtin.debug:
+        msg: "Hello{{COURSE}}, Course Durestion{{DURISTION}},Trainer is{{TRAINER}}"
 
-      - name: print the course details
-        ansibile.builtin.debug:
+    - name: print the course details
+      ansibile.builtin.debug:
         msg: "Hello{{COURSE}},Course Duration{{DURATION}},Traniner is{{TRAINER}}" 
 

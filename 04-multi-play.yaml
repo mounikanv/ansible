@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   tasks:
-  - name: Hello play 1 and task 1
+  - name: Hello from play 1 and task 1
     ansibile.builtin.debug:
       msg: hello from play-1 and task-1
   - name: Hello play-1 and task-2

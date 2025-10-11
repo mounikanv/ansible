@@ -1,6 +1,6 @@
 - name: play level variables
   hosts: local
-  connection: local_vars
+  connection: local
   vars:
     COURSE: devopes
     DURESTION: 3 monthes

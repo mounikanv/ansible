@@ -7,7 +7,7 @@
     TRAINER: mounika
   tasks:
     course: ansibile
-    ansibile.builtin.debug:
+    ansible.builtin.debug:
     msg: "Hello{{COURSE}},Course Duration{{DURATION}},Traniner is{{TRAINER}}" 
 
 

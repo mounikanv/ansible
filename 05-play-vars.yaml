@@ -5,6 +5,7 @@
     COURSE: devopes
     DURESTION: 3 monthes
     TRAINER: mounika
+    
   tasks:    
   - name: print course information
     ansible.builtin.debug:

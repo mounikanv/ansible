@@ -1,0 +1,15 @@
+- name: play level variables
+  hosts: local
+  connection: local
+  vars:
+    COURSE: devopes with aws
+    DURESTION: 3 monthes
+    TRAINER: mounika
+  tasks:
+    course: ansibile
+    ansibile.builtin.debug:
+    msg: "Hello{{COURSE}},Course Duration{{DURATION}},Traniner is{{TRAINER}}" 
+
+
+
+  

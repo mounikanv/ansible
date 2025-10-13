@@ -6,11 +6,11 @@
     DURATION: 3 monthes
     TRAINER: mounika
   tasks:
-   - name: print the course information
-     vars:
+  - name: print the course information
+    vars:
       course: ansibile,terrafoem
-      ansible.builtin.debug:
-       msg: "Hello{{ COURSE }},Course Duration{{ DURATION }},Traniner is{{ TRAINER }}" 
+    ansible.builtin.debug:
+      msg: "Hello{{ COURSE }},Course Duration{{ DURATION }},Traniner is{{ TRAINER }}" 
 
 - name: print course information again
   ansible.builtin.debug:

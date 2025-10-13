@@ -6,4 +6,4 @@
   task:
   - name: print course information
   ansibile.builtin.debug:
-   msg: "Hello i am learning{{course}},duration{{DURITION}},Trainer is{{TRAINER}}"
+   msg: "Hello i am learning {{course}}, duration {{DURITION}}, Trainer is {{TRAINER}}"

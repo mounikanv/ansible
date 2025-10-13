@@ -6,7 +6,7 @@
      ansibile.builtin.debug:
       msg: hello from play-1 and task-1
 
-  -name: Hello play-1 and task-2
+   -  name: Hello play-1 and task-2
   ansibile.builtin.debug:
       msg: hello from plat-1 and task-2 
 

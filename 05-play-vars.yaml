@@ -7,11 +7,12 @@
     TRAINER: mounika
     
   tasks:    
-    - name: print course information
-      ansible.builtin.debug:
-        msg: "Hello{{ COURSE }}, Course Duration{{ DURATION }},Trainer is{{ TRAINER }}"
+  - name: print course information
+    ansible.builtin.debug:
+      msg: "Hello{{ COURSE }}, Course Duration{{ DURATION }},Trainer is{{ TRAINER }}"
+  - name: print the course details
+    ansible.builtin.debug:
+      msg: "Hello{{ COURSE }},Course Duration{{ DURATION }},Traniner is{{ TRAINER }}" 
 
-    - name: print the course details
-      ansible.builtin.debug:
-        msg: "Hello{{ COURSE }},Course Duration{{ DURATION }},Traniner is{{ TRAINER }}" 
+
 

@@ -3,7 +3,7 @@
   connection: local
   vars_files:
   - course.yaml
-  task:
+  tasks:
   - name: print course information
-  ansibile.builtin.debug:
-   msg: "Hello i am learning {{course}}, duration {{DURITION}}, Trainer is {{TRAINER}}"
+    ansibile.builtin.debug:
+     msg: "Hello i am learning {{course}}, duration {{DURITION}}, Trainer is {{TRAINER}}"

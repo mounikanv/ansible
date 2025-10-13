@@ -3,16 +3,13 @@
   connection: local
   vars:
     COURSE: devopes
-    DURESTION: 3 monthes
+    DURATION: 3 monthes
     TRAINER: mounika
-    
-  tasks:    
+  tasks:
   - name: print course information
     ansible.builtin.debug:
-      msg: "Hello{{ COURSE }}, Course Duration{{ DURATION }},Trainer is{{ TRAINER }}"
-  - name: print the course information again
+      msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"
+
+  - name: print course information again
     ansible.builtin.debug:
-      msg: "Hello{{ COURSE }},Course Duration{{ DURATION }},Traniner is{{ TRAINER }}" 
-
-
-
+      msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"

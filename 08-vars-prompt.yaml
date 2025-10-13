@@ -12,5 +12,7 @@
     tasks:
     - name: printing user information
       ansibile.bultin.debug:
-      msg: "Hello user name{{ username }},password is{{ password }}"
+        msg: "Hello Username is: {{ USERNAME }}, password is: {{ PASSWORD }}"
 
+
+ 

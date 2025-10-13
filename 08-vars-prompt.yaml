@@ -12,7 +12,7 @@
 
   tasks:
   - name: printing user information
-    ansibile.bultin.debug:
+    ansible.builtin.debug:
       msg: "Hello Username is: {{ USERNAME }}, password is: {{ PASSWORD }}"
 
 

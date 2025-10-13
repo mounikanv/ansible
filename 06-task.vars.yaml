@@ -8,7 +8,7 @@
   tasks:
    - name: print the course information
      vars:
-      course: ansibile
+      course: ansibile,terrafoem
       ansible.builtin.debug:
        msg: "Hello{{ COURSE }},Course Duration{{ DURATION }},Traniner is{{ TRAINER }}" 
 

@@ -1,5 +1,5 @@
 - name: ansible datatypes
-  host: local
+  hosts: local
   connection: local
   vars: 
     Durition: 100 #This is Number

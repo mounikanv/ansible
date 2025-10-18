@@ -1,4 +1,4 @@
-- name: Print the Gather facts
+- name: gathering facts
   host: local
   connction: local
   tasks: 

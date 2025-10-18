@@ -13,7 +13,7 @@
      CI: jenkins
      Scripting: "Shell,Ansible,Terraform,Python"
   tasks: 
-  - name: Print the course information
-    ansible.builtin.debug:
+   - name: Print the course information
+     ansible.builtin.debug:
       msg: course is {{ DURITION }},{{ COURSE }},{{ IS_LIVE }},{{ TOOLS }},{{ CONCEPTS }}""  
 

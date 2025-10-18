@@ -5,7 +5,7 @@
   - name: Print names
     ansible.builtin.debug:
       msg: "Hello, {{ item }}" #item is a reserved key word
-    loops:
+    loop:
     - Mounika
     - ranjith
     - mouni

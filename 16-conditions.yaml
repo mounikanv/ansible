@@ -6,9 +6,25 @@
     ansible.builtin.dnf:
       name: nginx
       state: present
-    when: ansible_os_famialy=="Redhat"
+    when: ansible_os_famialy == "Redhat"
   - name: install nginx if Debian
     ansible.builtin.apt:
       name: nginx
       state: presant
-    when: ansibie_os_famialy=="Debian" 
+    when: ansibie_os_famialy == "Debian" 
+
+  #   - name: playbook control using ansible facts
+  # hosts: frontend
+  # become: yes
+  # tasks:
+  # - name: install nginx if redhat
+  #   ansible.builtin.dnf:
+  #     name: nginx
+  #     state: present
+  #   when: ansible_os_family == "RedHat"
+
+  # - name: install nginx if debian
+  #   ansible.builtin.apt:
+  #     name: nginx
+  #     state: present
+  #   when: ansible_os_family == "Debian"

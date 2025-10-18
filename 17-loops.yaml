@@ -6,9 +6,9 @@
     ansible.builtin.debug:
       msg: "Hello, {{ item }}" #item is a reserved key word
     loops:
-  - Mounika
-  - Ranjith
-  - mouni  
+    - Mounika
+    - ranjith
+    - mouni
 
   # - name: loops
   # hosts: local

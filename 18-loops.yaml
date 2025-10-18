@@ -6,7 +6,7 @@
     ansible.builtin.package:
       name:
       state: installed   
-  loop:
+    loop:
     - mysqul
     - nginx
     - zip

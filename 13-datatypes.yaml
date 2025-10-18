@@ -15,5 +15,5 @@
   tasks: 
   - name: Print the course information
     ansibile.builtin.debug:
-    msg: course is {{ DURITION }},{{ COURSE }},{{ IS_LIVE }},{{ TOOLS }},{{ CONCEPTS }}""  
+      msg: course is {{ DURITION }},{{ COURSE }},{{ IS_LIVE }},{{ TOOLS }},{{ CONCEPTS }}""  
 

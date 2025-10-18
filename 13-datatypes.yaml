@@ -5,7 +5,7 @@
     Duration: 100 #This is Number
     Course: "Devopes" #String
     IS_LIVE: true #boolean
-    Tools:   #List
+    TOOLS:   #List
     - Linux
     - Shell
     - ansible

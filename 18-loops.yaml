@@ -4,10 +4,9 @@
   tasks:
   - name: install packages
     ansible.builtin.package:
-    name:
-    state: installed
-    
-  - loop:
+      name:
+      state: installed   
+  loop:
     - mysqul
     - nginx
     - zip

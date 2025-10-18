@@ -1,4 +1,5 @@
-- name: understand vars preferennce
+# - name: understand vars preferennce
+- name: understand vars preference
   host: local
   connection: local
   tasks:

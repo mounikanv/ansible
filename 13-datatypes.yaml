@@ -1,4 +1,4 @@
-- name: ansible data types
+- name: ansible datatypes
   host: local
   connection: local
   vars: 

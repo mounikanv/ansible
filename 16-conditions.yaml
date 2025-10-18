@@ -1,5 +1,5 @@
 - name: Playbook control using ansible facts
-  host: frontend
+  hosts: frontend
   become: yes
   tasks:
   - name: install  nginx if Redhat

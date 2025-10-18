@@ -1,0 +1,11 @@
+- name: Conditions demo
+  host: local
+  connection: local
+  vars:
+   Number: 34
+  tasks:
+  - name: Print the number is less than or equal to 34
+    ansibile.builtin.debug:
+      msg: " Given number {{ NUMBER }} }} less than or equal to 100" 
+      When: Number<34
+      When: Number>34

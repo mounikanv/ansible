@@ -1,0 +1,11 @@
+- name: loops
+  hosts: local
+  connection: local
+  tasks:
+  - name: Print names
+    ansibile.builtin.debug:
+      msg: "Hello {{ item }}" #item is a reserved key word
+  loops:
+  - Mounika
+  - Ranjith
+  - mouni    

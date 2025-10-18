@@ -1,0 +1,7 @@
+- name: Print the Gather facts
+  host: local
+  connction: local
+  tasks: 
+  - name : Print the facts
+    ansibile.builtin.debug:
+     msg: "{{ ansibile_facts }}"

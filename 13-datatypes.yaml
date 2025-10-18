@@ -1,0 +1,19 @@
+- name: ansibile data types
+  host: local
+  connection: local
+  vars: 
+    Durition: 100 #This is Number
+    Course: "Devopes" #String
+    IS_LIVE: true #boolean
+    Tools:   #List
+    - Linux
+    - Shell
+    - ansible
+    Concepts:
+     CI: jenkins
+     Scripting: "Shell,Ansible,Terraform,Python"
+  tasks: 
+  - name: Print the course information
+    ansibile.builtin.debug:
+    msg: course is {{ DURITION }},{{ COURSE }},{{ IS_LIVE }},{{ TOOLS }},{{ CONCEPTS }}""  
+

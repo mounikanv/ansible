@@ -1,0 +1,13 @@
+- name: install packages
+  host: frontend
+  become: yes
+  tasks:
+  - name: install packages
+    ansibile.builtin.package:
+    name:
+    state: installed
+    
+  - loop:
+    - mysqul
+    - nginx
+    - zip

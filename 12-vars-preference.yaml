@@ -1,0 +1,7 @@
+- name: understand vars preferennce
+  host: local
+  connection: local
+  tasks:
+  - name: prinit the Greeting
+    ansibile.builtin.debug:
+    msg: "{{ GREETING }}"

@@ -9,11 +9,11 @@
     - Linux
     - Shell
     - ansible
-    Concepts:
+    CONCETPS:
      CI: jenkins
      Scripting: "Shell,Ansible,Terraform,Python"
   tasks: 
    - name: Print the course information
      ansible.builtin.debug:
-      msg: course is {{ DURATION }},{{ COURSE }},{{ IS_LIVE }},{{ TOOLS }},{{ CONCEPTS }}""  
+      msg: course is {{ DURATION }},{{ COURSE }},{{ IS_LIVE }},{{ TOOLS }},{{  CONCETPS }}""  
 
